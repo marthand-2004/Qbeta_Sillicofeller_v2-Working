@@ -1,0 +1,14 @@
+flask
+flask-cors
+matplotlib
+networkx
+numpy
+requests
+torch
+# Qiskit packages
+qiskit
+qiskit-aer
+# Optional: install from source for full Qiskit Metal support
+# pip install --user qiskit-metal
+# pylatexenc is required by qiskit circuit drawer
+pylatexenc
