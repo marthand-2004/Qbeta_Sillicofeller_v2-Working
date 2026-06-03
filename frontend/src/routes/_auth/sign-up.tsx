@@ -72,7 +72,7 @@ function SignUpPage() {
     if (Object.keys(next).length) return;
     signUp({ name: form.fullName, email: form.email, organization: form.organization });
     toast.success(`Welcome — you're the Organization Manager for ${form.organization}`);
-    navigate({ to: "/dashboard" });
+    navigate({ to: "/" });
   };
 
   return (

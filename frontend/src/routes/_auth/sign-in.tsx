@@ -55,14 +55,14 @@ function SignInPage() {
       return;
     }
     toast.success("Signed in — welcome back");
-    navigate({ to: "/dashboard" });
+    navigate({ to: "/" });
   };
 
   const quickLogin = (role: Role) => {
     signInAs(role);
     const acct = DEMO_ACCOUNTS.find((a) => a.role === role);
     toast.success(`Signed in as ${acct?.name}`);
-    navigate({ to: "/dashboard" });
+    navigate({ to: "/" });
   };
 
   return (

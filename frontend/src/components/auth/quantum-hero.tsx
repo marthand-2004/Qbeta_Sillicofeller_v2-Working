@@ -10,7 +10,7 @@ export function QuantumHero({
   description: string;
 }) {
   return (
-    <div className="relative flex h-full w-full flex-col justify-between overflow-hidden rounded-3xl border border-border bg-[#FAFAFB] p-8 lg:p-12">
+    <div className="relative flex h-full w-full flex-col overflow-hidden rounded-3xl border border-border bg-[#FAFAFB] p-8 lg:p-12">
       <QuantumBackdrop />
 
       <div className="relative z-10 max-w-md">
@@ -26,7 +26,7 @@ export function QuantumHero({
         </p>
       </div>
 
-      <div className="relative z-10 mt-8 flex items-end justify-center">
+      <div className="relative z-10 mt-10 flex flex-1 items-start justify-center">
         <ChipBlueprint />
         <FloatingCard className="absolute left-0 top-2" delay={0.1}>
           <div className="flex items-center gap-2 text-[0.6875rem] font-mono uppercase tracking-wider text-muted-foreground">
